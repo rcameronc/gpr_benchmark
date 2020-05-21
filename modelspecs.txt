@@ -7,22 +7,22 @@ Model data:
 Model terms
 
 1.  Lat/Lon Matern32 kernel
-    + Lengthscale bounds & first guess [1, 25, 100] 
-    + Variance bounds & first guess [0.02, 2, 100]
+    + Lengthscale bounds & first guess [0.1, 5, 10] (degrees)
+    + Variance bounds & first guess [0.02, 2, 100] (meters)
 
 2.  Lat/Lon Matern32 kernel·
-    + Lengthscale bounds & first guess [0.01, 1, 100] 
-    + Variance bounds & first guess [0.01, 1, 100]
+    + Lengthscale bounds & first guess [10, 50, 100] (degrees)
+    + Variance bounds & first guess [0.01, 1, 100] (meters)
 
 3.  Time Matern32 kernel
-    + Lengthscale [1, 10000, 100000]
-    + Variance [0.2, 2, 100]
+    + Lengthscale [1, 10000, 100000] (years)
+    + Variance [0.2, 2, 100] (meters)
 
 4.  Time Matern32 kernel
-    + Lengthscale [1, 6000, 10000]
-    + Variance [0.1, 1, 100]
+    + Lengthscale [1, 10000, 100000] (years)
+    + Variance [0.1, 1, 100] (meters)
 
-5.  White Noise kernel (space & time)
+5.  White Noise kernel (time & space)
     + Variance [0.01, 1, 100]
 
 K = 1 * 3 + 2 * 4 + 5
