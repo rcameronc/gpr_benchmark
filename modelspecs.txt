@@ -7,11 +7,11 @@ Model data:
 Model terms
 
 1.  Lat/Lon Matern32 kernel
-    + Lengthscale bounds & first guess [100, 2500, 10000] (Haversine km)
+    + Lengthscale bounds & first guess [1, 25, 100] (Haversine km)
     + Variance bounds & first guess [0.02, 2, 100]
 
 2.  Lat/Lon Matern32 kernel·
-    + Lengthscale bounds & first guess [1, 100, 10000]·(Haversine km)
+    + Lengthscale bounds & first guess [0.01, 1, 100]·(Haversine km)
     + Variance bounds & first guess [0.01, 1, 100]
 
 3.  Time Matern32 kernel
