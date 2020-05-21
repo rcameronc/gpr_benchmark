@@ -26,3 +26,12 @@ Model terms
     + Variance [0.01, 1, 100]
 
 K = 1 * 3 + 2 * 4 + 5
+
+RSL sigmas = 1 sigma
+Age uncertainties = 2 sigma
+
+Erica's GIA prior -- Ice6g VM5 - VM5 
+
+Known differences b/w MATLAB and GPflow
++ Optimizers
++ variance parameters 
