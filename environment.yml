@@ -1,0 +1,24 @@
+name: gpflow_bench
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - xarray=0.14.0
+  - xesmf
+  - scipy
+  - matplotlib
+  - cartopy
+  - python=3.6
+  - pip
+  - netcdf4
+  - dask
+  - jupyterlab
+
+- pip:
+
+    - tensorflow==2.1.0
+    - gpflow==2.0.0
+
+
