@@ -133,7 +133,7 @@ def gpr_it():
                           'weighted residual sum of squares': [wrss],
                           'root mean squared error': [rmse],
                           'weighted root mean squared error': [wrmse]})
-    df_out.to_csv(path + 'metrics.csv')
+    df_out.to_csv(path_gen + 'metrics.csv')
 
     # write hyperparameters to csv
     k1k2 = [[k.lengthscales.numpy(), k.variance.numpy()] for _, k in enumerate(m.kernel.kernels[0].kernels)]
